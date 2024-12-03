@@ -1,11 +1,28 @@
 [
   {
-    "name": "theme_info_test",
+    "name": "theme_info",
     "theme_name": "Dawn",
     "theme_version": "15.2.0",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
+  },
+  {
+    "name": "主题信息",
+    "settings": [
+      {
+        "type": "text",
+        "id": "theme_name",
+        "label": "主题名称",
+        "default": "我的商店"
+      },
+      {
+        "type": "color",
+        "id": "main_color",
+        "label": "主颜色",
+        "default": "#000000"
+      }
+    ]
   },
   {
     "name": "t:settings_schema.logo.name",
